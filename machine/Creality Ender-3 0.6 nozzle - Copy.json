@@ -1,0 +1,122 @@
+{
+    "bed_exclude_area": [],
+    "change_filament_gcode": ";M600 X0 Y0 Z 10\n;G91\n;G1 Z-0.15 E4\n;G90\nPAUSE_UNLOAD_FILAMENT\n",
+    "deretraction_speed": [
+        "0"
+    ],
+    "emit_machine_limits_to_gcode": "0",
+    "enable_filament_ramming": "0",
+    "fan_kickstart": "0.5",
+    "fan_speedup_overhangs": "0",
+    "fan_speedup_time": "0.5",
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 0.6 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_max_acceleration_e": [
+        "20000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "20000",
+        "500"
+    ],
+    "machine_max_acceleration_retracting": [
+        "20000",
+        "1000"
+    ],
+    "machine_max_acceleration_travel": [
+        "3000",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "20000",
+        "500"
+    ],
+    "machine_max_acceleration_y": [
+        "20000",
+        "500"
+    ],
+    "machine_max_acceleration_z": [
+        "20000",
+        "100"
+    ],
+    "machine_max_jerk_e": [
+        "0",
+        "5"
+    ],
+    "machine_max_jerk_x": [
+        "0",
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "0",
+        "8"
+    ],
+    "machine_max_jerk_z": [
+        "0",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "350",
+        "60"
+    ],
+    "machine_max_speed_z": [
+        "300",
+        "10"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "START_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer]",
+    "manual_filament_change": "1",
+    "min_layer_height": [
+        "0.05"
+    ],
+    "name": "Creality Ender-3 0.6 nozzle - Copy",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "parking_pos_retraction": "0",
+    "print_host": "http://192.168.2.156",
+    "printable_area": [
+        "0x0",
+        "220x0",
+        "220x230",
+        "0x230"
+    ],
+    "printable_height": "220",
+    "printer_settings_id": "Creality Ender-3 0.6 nozzle - Copy",
+    "printhost_apikey": "ZeVOVMvSsoaiNf4et87dD2Sq8gpKZEBG6VAp2rnOWQg",
+    "retract_before_wipe": [
+        "0%"
+    ],
+    "retract_restart_extra_toolchange": [
+        "2"
+    ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "2"
+    ],
+    "retraction_minimum_travel": [
+        "0"
+    ],
+    "retraction_speed": [
+        "350"
+    ],
+    "thumbnails": "32x32/PNG, 400x300/PNG",
+    "travel_slope": [
+        "30"
+    ],
+    "version": "2.3.1.10",
+    "wipe_distance": [
+        "4"
+    ],
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}
