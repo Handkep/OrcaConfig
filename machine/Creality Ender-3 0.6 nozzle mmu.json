@@ -1,6 +1,6 @@
 {
     "bed_exclude_area": [],
-    "change_filament_gcode": ";M600 X0 Y0 Z 10\n;G91\n;G1 Z-0.15 E4\n;G90\nPAUSE_UNLOAD_FILAMENT\n",
+    "change_filament_gcode": "T[next_extruder]",
     "deretraction_speed": [
         "0"
     ],
@@ -68,11 +68,10 @@
     ],
     "machine_pause_gcode": "PAUSE",
     "machine_start_gcode": "MMU_START_SETUP INITIAL_TOOL={initial_tool} TOTAL_TOOLCHANGES=!total_toolchanges! REFERENCED_TOOLS=!referenced_tools! TOOL_COLORS=!colors! TOOL_TEMPS=!temperatures! TOOL_MATERIALS=!materials! FILAMENT_NAMES=!filament_names! PURGE_VOLUMES=!purge_volumes!\nMMU_START_CHECK\n\n\nSTART_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer]\n\n\n",
-    "manual_filament_change": "1",
     "min_layer_height": [
         "0.05"
     ],
-    "name": "Creality Ender-3 0.6 nozzle - Copy",
+    "name": "Creality Ender-3 0.6 nozzle mmu",
     "nozzle_diameter": [
         "0.4"
     ],
@@ -85,7 +84,7 @@
         "0x230"
     ],
     "printable_height": "220",
-    "printer_settings_id": "Creality Ender-3 0.6 nozzle - Copy",
+    "printer_settings_id": "Creality Ender-3 0.6 nozzle mmu",
     "printhost_apikey": "ZeVOVMvSsoaiNf4et87dD2Sq8gpKZEBG6VAp2rnOWQg",
     "retract_before_wipe": [
         "0%"
